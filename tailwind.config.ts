@@ -52,15 +52,12 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
-				sidebar: {
-					DEFAULT: 'hsl(var(--sidebar-background))',
-					foreground: 'hsl(var(--sidebar-foreground))',
-					primary: 'hsl(var(--sidebar-primary))',
-					'primary-foreground': 'hsl(var(--sidebar-primary-foreground))',
-					accent: 'hsl(var(--sidebar-accent))',
-					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
-					border: 'hsl(var(--sidebar-border))',
-					ring: 'hsl(var(--sidebar-ring))'
+				// EV Dashboard specific colors
+				'ev-green': {
+					DEFAULT: 'hsl(var(--ev-green))',
+					bright: 'hsl(var(--ev-green-bright))',
+					dim: 'hsl(var(--ev-green-dim))',
+					glow: 'hsl(var(--ev-green-glow))'
 				}
 			},
 			borderRadius: {
